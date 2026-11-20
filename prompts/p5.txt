@@ -1,0 +1,1 @@
+Write exactly four bullet points about why local AI models can be useful. Each bullet point must contain exactly six words. Do not use commas anywhere.

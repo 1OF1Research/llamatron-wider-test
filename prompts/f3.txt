@@ -1,0 +1,1 @@
+Write a poem about autumn leaves in exactly four lines. Each line must contain exactly four words. Do not use commas anywhere.

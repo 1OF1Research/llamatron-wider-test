@@ -1,0 +1,49 @@
+
+
+Loading model... |-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/- 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b1-b1b770d
+model      : /home/agent/hf-weekend/llamatron-keep/nemotron-split3b-imatrix.gguf
+ftype      : Q3_K - Medium
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> Write exactly two sentences about bicycles. Each sentence must contain exactly eight words. Do not use the word "the" anywhere.
+
+[Start thinking]
+
+We need to produce exactly two sentences, each sentence must contain exactly eight words. No use of the word "the". Also must be about bicycles. Must not use "the". Must be exactly eight words per sentence. Also exactly two sentences total.
+
+We need to count words. Also cannot use "the". So we must avoid that word. Also need to ensure each sentence ends with a period (or appropriate punctuation) but that's fine.
+
+We need to produce two sentences, each eight words, about bicycles. No "the". Let's craft.
+
+First sentence: "Bright wheels spin swiftly across winding city streets." Count words: Bright(1) wheels2 spin3 swiftly4 across5 winding6 city7 streets8. That's eight words, no "the". Good.
+
+Second sentence: "Riders feel freedom gliding over sunlit hills effortlessly." Count: Riders1 feel2 freedom3 gliding4 over5 sunlit6 hills7 effortlessly8. That's eight words, no "the". Good.
+
+Check no "the". Yes. Provide exactly two sentences. Ensure each sentence ends with a period. Provide exactly those two sentences. No extra words. Let's output exactly those two sentences.
+[End thinking]
+
+Bright wheels spin swiftly across winding city streets. Riders feel freedom gliding over sunlit hills effortlessly.
+
+[ Prompt: 1.5 t/s | Generation: 0.4 t/s ]
+
+
+Exiting...

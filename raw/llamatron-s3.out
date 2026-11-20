@@ -1,0 +1,40 @@
+
+
+Loading model... |-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\| 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b1-b1b770d
+model      : /home/agent/hf-weekend/llamatron-keep/nemotron-split3b-imatrix.gguf
+ftype      : Q3_K - Medium
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> Summarize the passage below in exactly two sentences. Your summary must mention the river, the bridge, and the market.
+PASSAGE: "The town of Alden sits where the river bends around a limestone bluff. For two centuries its market filled the square every Friday, drawing farmers from the valley villages. In the 1960s engineers replaced the old wooden bridge with a steel one, and lorries began crossing at all hours. The market shrank as supermarkets opened on the bypass, but it never closed, and in  ... (truncated)
+
+[Start thinking]
+
+We need to summarize the passage in exactly two sentences, and the summary must mention the river, the bridge, and the market. So we need to include those three words (or concepts) in the two sentences. Must be exactly two sentences. Must mention river, bridge, market. Probably include them explicitly. Ensure we mention them. Provide two sentences only. No extra punctuation beyond sentences. Must be exactly two sentences, so we need a period after each sentence, and no extra sentences. Let's craft: "The river bends around a limestone bluff, and the town's historic bridge now carries lorries that once replaced its wooden predecessor. The Friday market, though smaller than before, still draws growers and shoppers, keeping the town's rhythm alive." That includes river, bridge, market. That's two sentences. Ensure we mention "river", "bridge", "market". Yes. Provide exactly two sentences. No extra.
+[End thinking]
+
+The river bends around a limestone bluff, and the town's historic bridge now carries lorries that once replaced its wooden predecessor. The Friday market, though smaller than before, still draws growers and shoppers, keeping the town's rhythm alive.
+
+[ Prompt: 2.9 t/s | Generation: 0.4 t/s ]
+
+
+Exiting...

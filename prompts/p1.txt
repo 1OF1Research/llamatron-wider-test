@@ -1,0 +1,1 @@
+Three boxes are labelled A, B, and C. One contains gold, one contains silver, and one is empty. Exactly one of these statements is true: (1) The gold is in A. (2) The gold is not in B. (3) The silver is in B. The empty box is C if statement (2) is false. Work out which box contains the gold, which contains the silver, and which is empty. Give the answer and brief reasoning.

@@ -1,0 +1,45 @@
+
+
+Loading model... |-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\| 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b1-b1b770d
+model      : /home/agent/hf-weekend/llamatron-keep/nemotron-split3b-imatrix.gguf
+ftype      : Q3_K - Medium
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> Write the opening of a short story, about 120 words, about a night-train conductor who finds an extra carriage coupled to the train that was not there at departure. Do not explain the extra carriage yet.
+
+[Start thinking]
+
+We need to write opening of a short story, about 120 words, about a night-train conductor who finds an extra carriage coupled to the train that was not there at departure. Do not explain the extra carriage yet. So just describe the scene, the conductor noticing something, but not explaining what it is. About 120 words. Should be opening, so set scene, introduce conductor, mention extra carriage appears, but not explain it. Keep it around 120 words. Let's craft ~120 words. Count roughly. Let's aim for 118-122 words.
+
+Write in third person perhaps. Let's count words.
+
+Draft:
+
+"The night train hissed through the black countryside, its headlamp cutting a thin line across the fields. Conductor Elias stood on the platform of the last car, checking tickets with a practiced flick of his pen. When the whistle blew, he turned to the rear and froze. A dark silhouette loomed where only empty track should have been—a carriage, sleek and unmarked, its windows glowing faintly amber. It hung there, coupler humming, as if it had always been part of the train. Elias frowned, his breath fogging in the cold
+[End thinking]
+
+The night train hissed through the black countryside, its headlamp cutting a thin line across the fields. Conductor Elias stood on the platform of the last car, checking tickets with a practiced flick of his pen. When the whistle blew, he turned to the rear and froze. A dark silhouette loomed where only empty track should have been—a carriage, sleek and unmarked, its windows glowing faintly amber. It hung there, coupler humming, as if it had always been part of the train. Elias frowned, his breath fogging in the cold air, and reached for the brass handle, wondering why the railway had slipped this extra weight into his night.
+
+[ Prompt: 1.6 t/s | Generation: 1.4 t/s ]
+
+
+Exiting...

@@ -1,0 +1,1 @@
+Write a Python function `count_vowels(text)` that returns the number of vowels (a, e, i, o, u, in either case) in the string. Do not import anything. Include the function only, plus one short example call in a comment.

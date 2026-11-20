@@ -1,0 +1,39 @@
+
+
+Loading model... |-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/ 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b1-b1b770d
+model      : /home/agent/hf-weekend/llamatron-keep/nemotron-split3b-imatrix.gguf
+ftype      : Q3_K - Medium
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> Explain why ice floats on water, for a smart 12-year-old, in at most three sentences. Stop as soon as the explanation is complete.
+
+[Start thinking]
+
+We need to answer: explain why ice floats on water, for a smart 12-year-old, in at most three sentences. Stop as soon as explanation is complete. So we must give up to three sentences, and stop when explanation is complete. Probably 2-3 sentences. Must be concise. Provide explanation: because water expands when it freezes, making ice less dense than liquid water. Also hydrogen bonding forms an open hexagonal lattice. So answer in at most three sentences. Stop after explanation. So we should output maybe 2 sentences. Ensure we stop after explanation, no extra text. Let's produce 2 sentences.
+[End thinking]
+
+Ice floats because when water freezes it expands, forming an open hexagonal lattice that makes ice less dense than liquid water. This lower density causes ice to stay on the surface instead of sinking.
+
+[ Prompt: 1.2 t/s | Generation: 0.4 t/s ]
+
+
+Exiting...

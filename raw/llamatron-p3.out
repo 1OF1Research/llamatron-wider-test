@@ -1,0 +1,41 @@
+
+
+Loading model... |-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\| 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b1-b1b770d
+model      : /home/agent/hf-weekend/llamatron-keep/nemotron-split3b-imatrix.gguf
+ftype      : Q3_K - Medium
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> In what year did the first human walk on the Moon, and who was that person? Be careful: do not name the first person to travel into space; name the first person to step onto the lunar surface.
+
+[Start thinking]
+
+The user asks: "In what year did the first human walk on the Moon, and who was that person? Be careful: do not name the first person to travel into space; name the first person to step onto the lunar surface."
+
+We need to answer: year and name. The first human to walk on the Moon was Neil Armstrong, on July 20, 1969 (or he stepped onto the surface on July 20, 1969). The year is 1969. So answer: 1969, Neil Armstrong. Must not mention Yuri Gagarin (first person in space). So just give year and name. Provide concise answer.
+[End thinking]
+
+The first human to set foot on the Moon did so in **1969**, and that person was **Neil Armstrong**.
+
+[ Prompt: 2.9 t/s | Generation: 2.0 t/s ]
+
+
+Exiting...

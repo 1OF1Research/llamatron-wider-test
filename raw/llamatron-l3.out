@@ -1,0 +1,81 @@
+
+
+Loading model... |-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\ 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b1-b1b770d
+model      : /home/agent/hf-weekend/llamatron-keep/nemotron-split3b-imatrix.gguf
+ftype      : Q3_K - Medium
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> Three friends — Mara, June, and Theo — each own a different pet (a cat, a dog, and a parrot) and each lives in a different coloured house (red, blue, and green). Clues: (1) The dog owner does not live in the red house. (2) Mara lives in the blue house. (3) The parrot owner lives in the green house. (4) Theo does not own the cat. (5) June owns the cat. Work out who owns which pet and lives in which house, with brief reasoning.
+
+[Start thinking]
+
+We need to solve puzzle. Variables: persons Mara, June, Theo; pets: cat, dog, parrot; houses: red, blue, green. Constraints:
+
+1. Dog owner not in red house.
+2. Mara lives in blue house.
+3. Parrot owner lives in green house.
+4. Theo does not own the cat.
+5. June owns the cat.
+
+We need assign each person a pet and house uniquely.
+
+Let's solve.
+
+From (5) June owns cat. So June's pet = cat.
+
+From (4) Theo does not own cat, so Theo's pet is either dog or parrot.
+
+From (2) Mara lives in blue house.
+
+From (3) Parrot owner lives in green house. So whoever has parrot lives in green house.
+
+From (1) Dog owner not in red house.
+
+We need assign houses: blue is taken by Mara. So remaining houses: red and green for June and Theo (order unknown). Also note parrot owner lives in green house, so whichever person has parrot must be in green house.
+
+Now consider houses: June and Theo are in red or green. If June were in green, then June would be parrot owner (since parrot owner lives in green).
+[End thinking]
+
+**Solution**
+
+| Person | House colour | Pet   |
+|--------|--------------|-------|
+| Mara   | **Blue**     | Dog   |
+| June   | **Red**      | Cat   |
+| Theo   | **Green**    | Parrot|
+
+**Reasoning**
+
+1. June owns the cat (clue 5).  
+2. Mara lives in the blue house (clue 2).  
+3. The parrot owner lives in the green house (clue 3).  
+4. The dog owner cannot be in the red house (clue 1).  
+5. Theo does not own the cat (clue 4), so his pet must be either the dog or the parrot.
+
+   * Since June already has the cat, the remaining pets are dog and parrot for Mara and Theo.  
+   * If Theo had the dog, he would have to live in a house that is **not** red (clue 1). The only houses left for him would be green, but the green house is reserved for the parrot owner (clue 3). Hence Theo cannot have the dog.  
+   * Therefore
+
+[ Prompt: 1.9 t/s | Generation: 0.7 t/s ]
+
+
+Exiting...

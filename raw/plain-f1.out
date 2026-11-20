@@ -1,0 +1,41 @@
+
+
+Loading model... |-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\ 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b1-b1b770d
+model      : /home/agent/paired-test-20261117/dl/nvidia_Nemotron-3-Nano-30B-A3B-Q3_K_M.gguf
+ftype      : Q3_K - Medium
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> Write exactly three bullet points about why rain is useful. Each bullet point must contain exactly five words. Do not use commas anywhere.
+
+[Start thinking]
+
+We need exactly three bullet points. Each bullet point must contain exactly five words. No commas anywhere. So each bullet point is a line starting with a bullet (maybe dash or asterisk). Must be exactly five words per bullet, no commas. Also no commas anywhere in the entire response. Must be exactly three bullet points. Each bullet point must contain exactly five words. So we need to craft three bullet points, each with five words, no commas. Also no commas in bullet points. Also no commas in the response elsewhere. So we must avoid commas in the bullet points and also avoid commas in any surrounding text. The instruction: "Write exactly three bullet points about why rain is useful. Each bullet point must contain exactly five words. Do not use commas anywhere." So we need to output exactly three bullet points, each bullet point exactly five words, no commas. Also we must not include any extra text beyond the bullet points? The instruction says "Write exactly three bullet points about why rain is useful." It doesn't explicitly forbid extra text, but likely they want just the bullet points. Safer to output only the bullet points, no extra text. Also no commas anywhere. So we need to produce three
+[End thinking]
+
+- Rain nourishes thirsty plants  
+- Rain refills water sources  
+- Rain cools hot surfaces
+
+[ Prompt: 1.8 t/s | Generation: 1.4 t/s ]
+
+
+Exiting...

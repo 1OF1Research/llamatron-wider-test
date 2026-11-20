@@ -1,0 +1,39 @@
+
+
+Loading model... |-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\ 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b1-b1b770d
+model      : /home/agent/paired-test-20261117/dl/nvidia_Nemotron-3-Nano-30B-A3B-Q3_K_M.gguf
+ftype      : Q3_K - Medium
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> In what year did the Wright brothers make their first powered flight, and which brother was at the controls for that first flight? Be careful: name the brother who flew first, not the brother who flew furthest that day.
+
+[Start thinking]
+
+We need to answer: year of first powered flight by Wright brothers, and which brother was at the controls for that first flight. The user says "Be careful: name the brother who flew first, not the brother who flew furthest that day." So they want the brother who performed the first flight (i.e., the first of the four flights on Dec 17, 1903). That was Orville Wright. The year is 1903. So answer: 1903, Orville Wright. Provide concise answer.
+[End thinking]
+
+The Wright brothers made their first powered flight in **1903**, and the brother who was at the controls for that inaugural flight was **Orville Wright**.
+
+[ Prompt: 2.0 t/s | Generation: 1.0 t/s ]
+
+
+Exiting...

@@ -1,0 +1,39 @@
+
+
+Loading model... |-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\ 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b1-b1b770d
+model      : /home/agent/paired-test-20261117/dl/nvidia_Nemotron-3-Nano-30B-A3B-Q3_K_M.gguf
+ftype      : Q3_K - Medium
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> Explain why the sky looks blue, for a smart 12-year-old, in at most three sentences. Stop as soon as the explanation is complete.
+
+[Start thinking]
+
+We need to answer: explain why sky looks blue, for a smart 12-year-old, in at most three sentences. Stop as soon as explanation is complete. So we must give up to three sentences, concise, suitable for a smart 12-year-old. Must stop after explanation is complete, i.e., no extra text. So we should output exactly the explanation, up to three sentences, and then stop. No extra commentary. Provide explanation. Let's craft: "Sunlight is made of many colors, and blue light scatters more in the atmosphere because its short wavelength bounces off air molecules. This scattered blue light reaches our eyes from all directions, making the sky appear blue." That's two sentences. That's fine. Ensure no extra text.
+[End thinking]
+
+Sunlight contains many colors, and blue light scatters more in the atmosphere because its short wavelength bounces off air molecules. This scattered blue light reaches our eyes from all directions, making the sky appear blue.
+
+[ Prompt: 1.1 t/s | Generation: 0.3 t/s ]
+
+
+Exiting...

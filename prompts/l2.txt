@@ -1,0 +1,1 @@
+On an island, knights always tell the truth and knaves always lie. You meet three islanders: Pia, Quin, and Rosa. Pia says: "Quin is a knave." Quin says: "Pia and Rosa are the same kind." Rosa says: "Pia is a knight." Work out whether each person is a knight or a knave, with brief reasoning.

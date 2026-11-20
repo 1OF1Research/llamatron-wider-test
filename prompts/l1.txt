@@ -1,0 +1,1 @@
+Five runners — Ada, Ben, Cleo, Dan, and Esme — finished a race in some order, with no ties. Clues: (1) Ada finished immediately ahead of Ben. (2) Cleo finished third. (3) Dan finished behind Esme. (4) Esme did not finish first. Give the full finishing order, first to fifth, with brief reasoning.

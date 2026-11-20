@@ -1,0 +1,39 @@
+
+
+Loading model... |-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/ 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b1-b1b770d
+model      : /home/agent/hf-weekend/llamatron-keep/nemotron-split3b-imatrix.gguf
+ftype      : Q3_K - Medium
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> Explain why the Moon looks bigger near the horizon than it does high in the sky, for a smart 12-year-old, in at most three sentences. Stop as soon as the explanation is complete.
+
+[Start thinking]
+
+We need to answer: explain why Moon looks bigger near horizon than high in sky, for a smart 12-year-old, max three sentences, stop as soon as explanation is complete. So we need to give explanation, likely mention atmospheric refraction? Actually the common explanation is illusion, not actual size change; but we can explain that it's an illusion due to perspective and reference objects. Provide up to three sentences, stop when explanation complete. So maybe two sentences. Must stop as soon as explanation is complete, meaning no extra text after. So we should output exactly the explanation, no extra commentary. Ensure it's at most three sentences. Let's craft: "The Moon doesn’t actually change size; it just looks bigger when it’s near the horizon because you can compare it to trees, buildings, or other objects, which tricks your brain into thinking it’s larger. When it’s high overhead there’s nothing to compare it to, so your brain perceives it as smaller." That's two sentences. That's fine. Ensure no extra text after.
+[End thinking]
+
+The Moon doesn’t actually change size; it just looks bigger near the horizon because you can compare it to trees, buildings, or other objects, which tricks your brain into thinking it’s larger. When it’s high overhead there’s nothing to compare it to, so your brain perceives it as smaller.
+
+[ Prompt: 0.7 t/s | Generation: 0.3 t/s ]
+
+
+Exiting...

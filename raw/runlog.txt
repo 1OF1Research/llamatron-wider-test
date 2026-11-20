@@ -1,0 +1,87 @@
+llamatron-p1 rc=0 wall=288s budget=256
+llamatron-p2 rc=0 wall=342s budget=256
+llamatron-p3 rc=0 wall=141s budget=256
+llamatron-p4 rc=0 wall=532s budget=256
+llamatron-p5 rc=0 wall=1383s budget=256
+llamatron-p6 rc=124 wall=1502s budget=256
+llamatron-p7 rc=0 wall=694s budget=256
+llamatron-p8 rc=124 wall=1502s budget=256
+llamatron-l1 rc=124 wall=1502s budget=256
+llamatron-l2 rc=124 wall=1503s budget=256
+llamatron-l3 rc=124 wall=1519s budget=256
+llamatron-m1 rc=124 wall=1502s budget=256
+llamatron-p6 rc=124 wall=1503s budget=256 retry=1
+llamatron-p8 rc=124 wall=1502s budget=256 retry=1
+llamatron-l1 rc=0 wall=892s budget=256 retry=1
+llamatron-l2 rc=0 wall=782s budget=256 retry=1
+llamatron-l3 rc=0 wall=863s budget=256 retry=1
+llamatron-m1 rc=0 wall=1074s budget=256 retry=1
+llamatron-m2 rc=124 wall=1503s budget=256 retry=1
+RETRIES DONE
+llamatron-m2 rc=124 wall=14464s budget=256
+llamatron-m3 rc=124 wall=1507s budget=256
+llamatron-t1 rc=124 wall=1512s budget=256
+llamatron-t2 rc=0 wall=1035s budget=256
+llamatron-t3 rc=0 wall=599s budget=256
+llamatron-c1 rc=0 wall=479s budget=256
+llamatron-c2 rc=0 wall=666s budget=256
+llamatron-c3 rc=0 wall=795s budget=256
+llamatron-f1 rc=0 wall=537s budget=256
+llamatron-f2 rc=0 wall=702s budget=256
+llamatron-f3 rc=0 wall=978s budget=256
+llamatron-s1 rc=0 wall=1260s budget=256
+llamatron-s2 rc=0 wall=1291s budget=256
+llamatron-s3 rc=0 wall=787s budget=256
+llamatron-e1 rc=124 wall=1502s budget=256
+llamatron-e2 rc=0 wall=1095s budget=256
+llamatron-e3 rc=0 wall=571s budget=256
+llamatron-w1 rc=124 wall=1509s budget=256
+llamatron-w2 rc=124 wall=1502s budget=256
+llamatron-w3 rc=124 wall=1509s budget=256
+plain-p1 rc=124 wall=1502s budget=256
+plain-p2 rc=0 wall=1413s budget=256
+plain-p3 rc=0 wall=621s budget=256
+plain-p4 rc=0 wall=977s budget=256
+plain-p5 rc=0 wall=768s budget=256
+plain-p6 rc=0 wall=1057s budget=256
+plain-p7 rc=0 wall=744s budget=256
+plain-p8 rc=0 wall=909s budget=256
+plain-l1 rc=0 wall=689s budget=256
+plain-l2 rc=124 wall=1502s budget=256
+plain-l3 rc=0 wall=860s budget=256
+plain-m1 rc=0 wall=680s budget=256
+plain-m2 rc=0 wall=507s budget=256
+plain-m3 rc=0 wall=477s budget=256
+plain-t1 rc=0 wall=876s budget=256
+plain-t2 rc=0 wall=354s budget=256
+plain-t3 rc=0 wall=218s budget=256
+plain-c1 rc=0 wall=433s budget=256
+plain-c2 rc=0 wall=346s budget=256
+plain-c3 rc=0 wall=444s budget=256
+plain-f1 rc=0 wall=269s budget=256
+plain-f2 rc=0 wall=258s budget=256
+plain-f3 rc=0 wall=296s budget=256
+plain-s1 rc=124 wall=1502s budget=256
+plain-s2 rc=124 wall=1502s budget=256
+plain-s3 rc=124 wall=1503s budget=256
+plain-e1 rc=124 wall=1503s budget=256
+plain-e2 rc=0 wall=852s budget=256
+plain-e3 rc=0 wall=942s budget=256
+plain-w1 rc=0 wall=1495s budget=256
+plain-w2 rc=124 wall=1511s budget=256
+plain-w3 rc=0 wall=1435s budget=256
+BATCH DONE
+llamatron-m3 rc=0 wall=719s budget=256 retry=1
+llamatron-t1 rc=0 wall=272s budget=256 retry=1
+llamatron-e1 rc=0 wall=255s budget=256 retry=1
+llamatron-w1 rc=0 wall=364s budget=256 retry=1
+llamatron-w2 rc=0 wall=390s budget=256 retry=1
+llamatron-w3 rc=0 wall=389s budget=256 retry=1
+plain-p1 rc=0 wall=465s budget=256 retry=1
+plain-l2 rc=0 wall=466s budget=256 retry=1
+plain-s1 rc=0 wall=297s budget=256 retry=1
+plain-s2 rc=0 wall=321s budget=256 retry=1
+plain-s3 rc=0 wall=490s budget=256 retry=1
+plain-e1 rc=0 wall=442s budget=256 retry=1
+plain-w2 rc=0 wall=802s budget=256 retry=1
+RETRIES2 DONE

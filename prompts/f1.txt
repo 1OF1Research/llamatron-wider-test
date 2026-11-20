@@ -1,0 +1,1 @@
+Write exactly three bullet points about why rain is useful. Each bullet point must contain exactly five words. Do not use commas anywhere.

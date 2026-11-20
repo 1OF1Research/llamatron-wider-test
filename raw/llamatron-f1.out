@@ -1,0 +1,43 @@
+
+
+Loading model... |-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/- 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b1-b1b770d
+model      : /home/agent/hf-weekend/llamatron-keep/nemotron-split3b-imatrix.gguf
+ftype      : Q3_K - Medium
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> Write exactly three bullet points about why rain is useful. Each bullet point must contain exactly five words. Do not use commas anywhere.
+
+[Start thinking]
+
+We need exactly three bullet points. Each bullet point must contain exactly five words. No commas anywhere. So each bullet point is a line starting with a bullet (maybe dash or asterisk). Must be exactly five words per bullet, no commas. Also no commas anywhere in the entire response. Must be exactly three bullet points. Each bullet point must contain exactly five words. So we need to craft three bullet points, each with five words, no commas. Also no commas in bullet points. Also no extra punctuation? Commas are prohibited, but other punctuation like periods? The instruction says "Do not use commas anywhere." It doesn't forbid periods, but bullet points likely end with no punctuation or maybe a period is okay. But safer to avoid commas only. We can use periods? It didn't forbid periods. But bullet points maybe just lines without punctuation. Let's produce bullet points using hyphens or asterisks. Each bullet point must contain exactly five words. Let's craft:
+
+Bullet 1: "Rain nourishes soil and plants". Count words: Rain(1) nourishes(2) soil(3) and(4) plants(5). That's five words, no comm
+[End thinking]
+
+- Rain nourishes soil and plants  
+- Rain replenishes water sources  
+- Rain cools temperatures naturally
+
+[ Prompt: 0.8 t/s | Generation: 0.7 t/s ]
+
+
+Exiting...

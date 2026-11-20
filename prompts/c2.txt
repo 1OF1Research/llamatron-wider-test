@@ -1,0 +1,1 @@
+Write a Python function `is_palindrome(word)` that returns True if the word reads the same forwards and backwards, ignoring letter case, and False otherwise. Do not import anything. Include the function only, plus one short example call in a comment.

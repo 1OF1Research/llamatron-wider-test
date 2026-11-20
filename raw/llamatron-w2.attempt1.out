@@ -1,0 +1,44 @@
+
+
+Loading model... |-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/ 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b1-b1b770d
+model      : /home/agent/hf-weekend/llamatron-keep/nemotron-split3b-imatrix.gguf
+ftype      : Q3_K - Medium
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> Write the opening of a short story, about 120 words, about a clockmaker who builds a clock that ticks one second slow every day, on purpose. Do not explain why they built it that way yet.
+
+[Start thinking]
+
+We need to write opening of a short story, about 120 words, about a clockmaker who builds a clock that ticks one second slow every day, on purpose. Do not explain why they built it that way yet. So just opening, about 120 words, describing the clockmaker and the clock, but not explaining why. Must be about 120 words, not exactly but close. Let's aim for exactly 120 words. Count words.
+
+Let's draft:
+
+"Morning light slipped through the dusty panes of Elias Harrow’s workshop, catching the brass gears that lay like sleeping insects on his bench. He lifted the unfinished timepiece, its wooden case polished to a honeyed glow, and set the tiny escapement into place. The mechanism was unlike any he had crafted before; each tick lingered a heartbeat longer than the last, slipping a fraction behind the world’s relentless march. He smiled, feeling the subtle rebellion of the gears, and whispered a promise to the silent seconds that would soon betray their usual haste. Outside, the town’s bells rang on schedule, oblivious to the quiet conspiracy hidden within his creation."
+
+Now count words.
+
+Count manually:
+
+Morning(1) light2
+[End thinking]
+
+Morning light slipped through the dusty panes of Elias Harrow’s workshop, catching the brass gears that lay like sleeping insects on his bench. He lifted the unfinished timepiece, its wooden case polished to a honeyed glow, and set the tiny escapement into place. The mechanism was unlike any he had crafted before; each tick lingered a heartbeat longer than the last, slipping a fraction behind the world’s relentless[0m
